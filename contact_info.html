@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Contact me</h3>
+    <ul>
+      <li>Emmail: jiaxin@hotmail.sg</li>
+      <li>Telephone: +65 81274909</li>
+      <li>Instagram: applexuishangry</li>
+    </ul>
+<hr>
+    <!-- html form; need 2 elements:a)label b)input (self-closing tag, use type attribute to define) -->
+    <form class="" action="mailto:jiaxin@hotmail.sg" method="post" enctype="text/plain">
+      <!-- post those data to the email, e.g. yourName; yourEmail -->
+      <label for=""> Do you want to befriend with me?</label><br>
+      <label for=""> Your Name:</label>
+      <input type="text" name="yourName"><br>
+      <label for=""> Your Email:</label>
+      <input type="email" name="yourEmail"><br>
+      <!-- include email in type enable input validation -->
+      <label for="">Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit">
+      <!-- create a submit buttons -->
+    </form>
+
+  </body>
+</html>
+<!-- until we learn js, we cannot get full functionalities yet -->
